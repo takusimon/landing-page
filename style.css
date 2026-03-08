@@ -1,14 +1,28 @@
-.body {
+body {
     display: flex;
+    margin:0;
+    padding:0;
+    border:0;
 }
 
 .header {
     display: flex;
     flex-direction: column;
     background-color: #1F2937;
+    box-sizing: border-box;
+    padding:8px;
+    flex:1;
 }
 
 .top-section {
     display: flex;
     justify-content: space-between;
+}
+
+#header-quicklinks {
+    display: flex;
+    list-style-type:none;
+    color:white;
+    gap:20px;
+
 }
