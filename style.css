@@ -3,7 +3,8 @@ body {
     margin:0;
     padding:0;
     border:0;
-}
+    flex-direction: column;
+    }
 
 .header {
     display: flex;
@@ -24,5 +25,35 @@ body {
     list-style-type:none;
     color:white;
     gap:20px;
+    
+}
+.signup-section {
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
 
+.signup-text {
+    display: flex;
+    flex-direction: column;
+    color:white;
+}
+
+#signup-button {
+    background-color: #3882f6;
+    color: white;
+    text-align: center;
+    padding:10px;
+    text-decoration: none;
+    border-radius: 10px;
+    align-self: flex-start;
+    border: 0;
+    font-weight: bold;
+   
+}
+#people-img {
+    box-sizing: border-box;
+    
 }
