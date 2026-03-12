@@ -114,3 +114,23 @@ body  {
     font-size:25px;
     align-self: flex-end;
 }
+
+.call-to-action {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882f6;
+    box-sizing: border-box;
+    margin:200px;
+    border:30px solid #3882f6;
+    border-radius:20px;
+    color: white;
+}
+.footer{
+    background-color: #1F2937;
+    padding:8px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-shrink: 0;
+}
