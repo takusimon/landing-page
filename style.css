@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 body  {
     display: flex;
     margin:0;
     padding:0;
     border:0;
     flex-direction: column;
-    font-family: Roboto, sans-serif;
+    font-family: "Roboto";
     }
 
 .header {
@@ -41,18 +43,23 @@ body  {
     flex-direction: column;
     color:white;
 }
-
-#signup-button {
+.signup-button-header,.signup-button-cta {
     background-color: #3882f6;
     color: white;
     text-align: center;
     padding:10px;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 5px;
+}
+.signup-button-header {
+    
     align-self: flex-start;
     border: 0;
     font-weight: bold;
    
+}
+.signup-button-cta {
+    border-color: white;
 }
 #people-img {
     box-sizing: border-box;
@@ -87,5 +94,23 @@ body  {
     height: 100px;
     width: 100px;
     border-radius:10px;
-
+}
+.quote{
+    box-sizing: border-box;
+    background-color:#E5E7EB;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: italic;
+    padding:50px;
+}
+.quote-text{
+    font-size:36px;
+    padding:100px;
+    font-weight: 300;
+}
+.author{
+    font-weight: 600;
+    font-size:25px;
+    align-self: flex-end;
 }
