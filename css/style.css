@@ -4,12 +4,33 @@ body {
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;
+    padding:0;
+    margin:0;
 }
 
 .header-container,.lower-footer {
     background-color: #1F2937;
+    padding:0 3em;
+
 }
 
+.header-container {
+    display: flex;
+    flex-direction: column;
+}
+.upper-header {
+    display:flex;
+}
+.navigation-links {
+    margin-left:auto;
+    list-style-type: none;
+    display:flex;
+    gap:1.5em;
+}
+
+li {
+    color:#F9FAF8
+}
 .hero-section {
     font-size:48px;
     color:#F9FAF8;
