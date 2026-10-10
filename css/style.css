@@ -158,3 +158,8 @@ button {
 .footer-left {
     margin-right:auto;
 }
+.lower-footer {
+    padding:2em;
+    text-align: center;
+    color:#E5E7EB
+}
