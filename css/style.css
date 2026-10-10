@@ -6,6 +6,7 @@ body {
     justify-content: space-between;
     padding:0;
     margin:0;
+    box-sizing: border-box;
 }
 
 .header-container,.lower-footer {
@@ -26,6 +27,18 @@ body {
     list-style-type: none;
     display:flex;
     gap:1.5em;
+}
+
+.lower-header {
+    display: flex;
+    padding:3em;
+    justify-content: center;
+    align-items: center;
+    flex-flow:row wrap;
+}
+
+.h-left {
+    margin-right: 3.5em;
 }
 
 li {
@@ -57,4 +70,8 @@ li {
 
 button {
     background-color: #3882F6;
+    padding:1em;
+    border-radius: 1em;
+    border:0;
+    color:#F9FAF8;
 }
