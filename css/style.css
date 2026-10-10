@@ -1,0 +1,39 @@
+body {
+     font-family:Roboto, "JetBrains Mono Nerd Font Mono", "Time New Roman",
+    sans-serif;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+}
+
+.header-container,.lower-footer {
+    background-color: #1F2937;
+}
+
+.hero-section {
+    font-size:48px;
+    color:#F9FAF8;
+    font-weight:900;
+}
+
+.hero-secondary {
+    font-size: 18px;
+    color:#E5E7EB;
+}
+
+.info-heading {
+    font-size:36px;
+    color:#1F2937;
+    font-weight: 900;
+}
+
+.quote {
+    color: #E5E7EB;
+    font-size:36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+button {
+    background-color: #3882F6;
+}
