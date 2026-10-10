@@ -6,6 +6,7 @@ body {
     justify-content: space-between;
     padding:0;
     margin:0;
+    box-sizing: border-box;
     
 }
 
@@ -67,12 +68,19 @@ li {
     display:flex;
     flex-wrap:wrap;
     justify-content: center;
+    align-items: center;
     gap:2em;
 }
 
 .box-1,.box-2,.box-3,.box-4 {
     display: flex;
-    flex-flow:column nowrap;
+    flex-flow:column wrap;
+    gap:1em;
+    justify-content: center;
+    align-items: center;
+    padding:0 2em;
+    width:200px;
+
 }
 
 .quote {
@@ -98,4 +106,8 @@ button {
     width:100px;
     border:2px solid #3882F6;
     border-radius:1em;
+}
+
+.rand-text {
+    text-align: center;
 }
